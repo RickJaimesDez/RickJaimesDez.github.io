@@ -1,6 +1,6 @@
 title: Ricardo Jaimes Hernandez
 description: Cybersecurity Portfolio
-theme: portfolYOU
+remote_theme: yousinix/portfolYOU
 
 plugins:
   - jekyll-feed
