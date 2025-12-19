@@ -1,8 +1,13 @@
-title: Ricardo Jaimes Hernandez
+title: Ricky Jaimes
 description: Cybersecurity Portfolio
+
+url: "https://rickjaimesdez.github.io"
+baseurl: ""
+
 remote_theme: yousinix/portfolYOU
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-feed
 
