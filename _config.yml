@@ -8,3 +8,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
+  navbar:
+  - title: Projects
+    url: /projects/
+  - title: Skills
+    url: /skills/
+  - title: Certifications
+    url: /certifications/
+  - title: Contact
+    url: /contact/
+
+
