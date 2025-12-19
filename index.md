@@ -1,8 +1,6 @@
 ---
 layout: home
 title: Home
-layout: projects
-title: Projects
 ---
 
 # Ricky Jaimes
