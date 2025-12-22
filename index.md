@@ -66,20 +66,40 @@ This portfolio is built to show how I approach problems, not just which tools I 
 
 ## Skills
 
-### Blue Team
-- Alert triage
-- Log analysis
-- Incident documentation
+<div class="row">
 
-### Network
-- TCP/IP fundamentals
-- Wireshark
-- IDS concepts
+  <div class="col-md-6">
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Blue Team</h5>
+        <ul class="mb-0">
+          <li>Alert triage</li>
+          <li>Log analysis</li>
+          <li>Incident documentation</li>
+          <li>Basic threat hunting (beginner)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-### Tools
-- Linux
-- Python
-- Git/GitHub
+  <div class="col-md-6">
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Network + Tools</h5>
+        <ul class="mb-0">
+          <li>TCP/IP fundamentals</li>
+          <li>Wireshark analysis</li>
+          <li>IDS concepts</li>
+          <li>Linux fundamentals</li>
+          <li>Python (automation basics)</li>
+          <li>Git/GitHub workflow</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
 ---
 
