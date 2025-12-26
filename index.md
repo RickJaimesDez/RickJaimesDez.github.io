@@ -6,7 +6,12 @@ title: Home
 # Ricky Jaimes
 ## Cybersecurity Portfolio
 
-SOC-focused labs, writeups, and projects that show how I think during investigation and triage.
+**SOC-focused work:** alert triage, log analysis, and network investigation with clear, evidence-based writeups.
+
+<div class="mb-4">
+  <a class="btn btn-outline-primary btn-sm mr-2" href="/projects/">View Projects</a>
+  <a class="btn btn-outline-primary btn-sm" href="/contact/">Contact</a>
+</div>
 
 ## Highlights
 
