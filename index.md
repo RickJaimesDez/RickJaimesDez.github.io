@@ -100,7 +100,6 @@ This portfolio is built to show how I approach problems, not just which tools I 
 
 </div>
 
-
 ---
 
 ## Certifications
