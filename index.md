@@ -8,6 +8,45 @@ title: Home
 
 SOC-focused labs, writeups, and projects that show how I think during investigation and triage.
 
+## Highlights
+
+<div class="row text-center">
+
+  <div class="col-md-4 mb-3">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">SOC-Focused</h5>
+        <p class="card-text mb-0">
+          Alert triage, log analysis, network traffic inspection, and clear reporting.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">Hands-On Projects</h5>
+        <p class="card-text mb-0">
+          Real-time NIDS dashboard, traffic investigations, and incident-style writeups.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">Security+</h5>
+        <p class="card-text mb-0">
+          CompTIA Security+ certified with a blue-team learning path.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 ---
 
 ## About Me
