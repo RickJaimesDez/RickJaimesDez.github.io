@@ -151,6 +151,16 @@ This portfolio is built to show how I approach problems, not just which tools I 
 
 ---
 
-## Contact
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINK
-- Email: you@example.com
+## Get in touch
+
+<div class="card border-0 shadow-sm mb-4">
+  <div class="card-body">
+    <h5 class="card-title mb-2">Contact</h5>
+    <p class="card-text mb-3">
+      If you want a quick walkthrough of any project or writeup, the easiest way to reach me is on the Contact page.
+    </p>
+    <a class="btn btn-outline-primary btn-sm" href="/contact/">Go to Contact</a>
+  </div>
+</div>
+
+---
