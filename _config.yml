@@ -8,6 +8,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
+collections:
+  writeups:
+    output: true
+
+
 
 
 
