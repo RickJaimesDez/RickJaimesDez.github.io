@@ -2,7 +2,6 @@
 layout: page
 title: "Writeup 001: Network Traffic Investigation"
 permalink: /writeups/network-traffic-investigation/
-nav_exclude: true
 ---
 
 ## Overview
