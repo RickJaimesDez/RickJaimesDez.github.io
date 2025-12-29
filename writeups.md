@@ -7,33 +7,47 @@ weight: 15
 
 ## Writeups
 
-These are focused investigations and exercises written in a SOC-style format.  
-Each writeup emphasizes evidence, analysis, and clear takeaways.
+These writeups document focused security investigations and exercises rewritten in a SOC-style format.  
+Each entry emphasizes evidence, analysis, findings, and actionable takeaways rather than step-by-step lab instructions.
+
+---
+
+## Featured Writeups
 
 <div class="row">
 
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Network Traffic Investigation (Wireshark)</h5>
+        <h5 class="card-title">Writeup 001: Network Traffic Investigation</h5>
         <p class="card-text">
-          Analyzed packet captures to identify suspicious behavior and document findings.
+          Investigated network traffic to identify suspicious behavior using packet-level analysis.
         </p>
-        <p class="card-text"><b>Focus:</b> Traffic analysis, triage reasoning</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/wireshark-triage">Repo</a>
+        <p class="card-text">
+          <b>Focus:</b> Wireshark analysis, traffic triage, evidence-based findings
+        </p>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">
+          View Writeup
+        </a>
       </div>
     </div>
   </div>
 
+  <!-- Future writeups go below this line -->
+
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Incident Response Mini Report</h5>
+        <h5 class="card-title">Future Writeup</h5>
         <p class="card-text">
-          Incident-style report including scope, evidence, findings, and mitigations.
+          Placeholder for the next investigation or analysis.
         </p>
-        <p class="card-text"><b>Focus:</b> Documentation, evidence handling</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report">Repo</a>
+        <p class="card-text">
+          <b>Focus:</b> To be determined
+        </p>
+        <span class="btn btn-outline-secondary btn-sm disabled">
+          Coming Soon
+        </span>
       </div>
     </div>
   </div>
@@ -42,8 +56,15 @@ Each writeup emphasizes evidence, analysis, and clear takeaways.
 
 ---
 
-## Writeup Format (What to expect)
+## Writeup Format
+
+Each writeup follows a consistent structure so reviewers can quickly understand the work:
+
 - Scenario or objective
-- Evidence collected
+- Environment and tools used
+- Evidence collected (screenshots, logs, pcaps)
 - Analysis and findings
-- Detection or prevention notes
+- Detection, mitigation, or prevention notes
+- Key takeaway relevant to SOC work
+
+Some writeups are adapted from structured lab exercises and rewritten to reflect real-world analyst documentation.
