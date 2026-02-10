@@ -1,10 +1,9 @@
 ---
 layout: home
-title: Home
+title: Cybersecurity Portfolio
 ---
 
-# Ricky Jaimes
-## Cybersecurity Portfolio
+# Cybersecurity Portfolio
 
 **SOC-focused work:** alert triage, log analysis, and network investigation with clear, evidence-based writeups.
 
