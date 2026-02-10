@@ -11,8 +11,13 @@ plugins:
 collections:
   writeups:
     output: true
+    permalink: /writeups/:name/
+    nav_exclude: true   # Hides writeup files from the navbar
 
-
-
-
-
+defaults:
+  - scope:
+      path: "_writeups"
+      type: writeups
+    values:
+      layout: page
+      nav_exclude: true   # Double protection
