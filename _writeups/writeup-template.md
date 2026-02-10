@@ -1,5 +1,8 @@
 ---
-title: "Network Traffic Investigation"
+title: "TEMPLATE – Do Not Publish"
+layout: page
+nav_exclude: true
+published: false
 ---
 
 ## Overview
