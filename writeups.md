@@ -19,12 +19,12 @@ Each entry emphasizes evidence, analysis, findings, and actionable takeaways rat
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Writeup 001: Network Traffic Investigation</h5>
+        <h5 class="card-title">Network Traffic Investigation</h5>
         <p class="card-text">
-          Investigated network traffic to identify suspicious behavior using packet-level analysis.
+          Analysis of suspicious HTTP activity and beaconing behavior using Wireshark and SOC-style triage techniques.
         </p>
         <p class="card-text">
-          <b>Focus:</b> Wireshark analysis, traffic triage, evidence-based findings
+          <b>Focus:</b> Wireshark analysis, threat hunting, evidence-based findings
         </p>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">
           View Writeup
