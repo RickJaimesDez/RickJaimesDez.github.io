@@ -29,7 +29,7 @@ weight: 10
         <p class="card-text"><b>Focus:</b> Network investigation</p>
         <p class="card-text">Packet capture analysis with findings and prevention recommendations.</p>
         <p class="card-text"><b>What I learned:</b> Explaining traffic patterns to support triage decisions.</p>
-        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/soc-network-traffic-investigation">Repo</a>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">Writeup</a>
       </div>
     </div>
