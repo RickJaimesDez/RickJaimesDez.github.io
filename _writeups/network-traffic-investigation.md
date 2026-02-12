@@ -79,7 +79,7 @@ The observed domains and follow-up payload hash match publicly released indicato
 - /shrk.bin
 
 **Follow-up Payload Hash (SHA256):**
-- 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6
+The retrieved file (`shrk.bin`) has a SHA256 hash of 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6 and a file size of 8,359,712 bytes.
 
 ---
 
