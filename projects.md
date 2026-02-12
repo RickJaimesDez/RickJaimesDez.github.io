@@ -30,7 +30,7 @@ weight: 10
         <p class="card-text">Packet capture analysis with findings and prevention recommendations.</p>
         <p class="card-text"><b>What I learned:</b> Explaining traffic patterns to support triage decisions.</p>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/wireshark-triage">Repo</a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/wireshark-triage/blob/main/README.md">Writeup</a>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">Writeup</a>
       </div>
     </div>
   </div>
