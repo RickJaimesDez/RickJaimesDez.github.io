@@ -27,16 +27,13 @@ A packet capture was analyzed to investigate suspected malware activity originat
 
 ## Evidence
 
-Below is a screenshot of the HTTP GET request for `/shrk.bin` and the corresponding `200 OK` response, confirming successful payload delivery to 172.16.1.128.
-
+HTTP GET request for /shrk.bin and corresponding 200 OK response confirming successful binary payload delivery to 172.16.1.128.
 ![HTTP GET](/assets/images/http-get.png)
 
-Below is a screenshot showing repeated TLS Client Hello sessions from 172.16.1.128 to `b1.encountergulf.world`, indicating potential beaconing behavior.
-
+Repeated TLS Client Hello sessions from 172.16.1.128 to b1.encountergulf.world, indicating automated encrypted outbound communication consistent with beaconing behavior.
 ![TLS Beaconing](/assets/images/tls-beaconing.png)
 
-Below is a screenshot showing all traffic involving 104.21.21.29, confirming that 172.16.1.128 is the only internal system communicating with the malicious infrastructure.
-
+Filtered view of all traffic involving 104.21.21.29, confirming that 172.16.1.128 is the only internal system communicating with the malicious infrastructure within the capture scope.
 ![IP Filter View](/assets/images/ip-filter.png)
 
 ---
