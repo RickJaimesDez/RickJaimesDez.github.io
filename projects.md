@@ -16,8 +16,8 @@ weight: 10
         <p class="card-text"><b>Focus:</b> Detection and alerting</p>
         <p class="card-text">Flask dashboard that displays real-time intrusion alerts with timestamps and severity.</p>
         <p class="card-text"><b>What I learned:</b> Turning raw alerts into clear, actionable notes.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard">Repo</a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard/blob/main/README.md">Writeup</a>
+        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
+        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ weight: 10
         <p class="card-text"><b>Focus:</b> Network investigation</p>
         <p class="card-text">Packet capture analysis with findings and prevention recommendations.</p>
         <p class="card-text"><b>What I learned:</b> Explaining traffic patterns to support triage decisions.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/wireshark-triage">Repo</a>
+        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">Writeup</a>
       </div>
     </div>
@@ -42,8 +42,8 @@ weight: 10
         <p class="card-text"><b>Focus:</b> Documentation and analysis</p>
         <p class="card-text">Incident-report style writeup including scope, evidence, findings, and mitigations.</p>
         <p class="card-text"><b>What I learned:</b> Writing evidence-based findings and realistic mitigations.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report">Repo</a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report/blob/main/README.md">Writeup</a>
+        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
+        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
       </div>
     </div>
   </div>
