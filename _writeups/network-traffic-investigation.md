@@ -61,6 +61,9 @@ No DNS queries were observed for the malicious domains within the packet capture
 - **Finding 6 – Endpoint Detection Triggered:**  
 The exported payload triggered Microsoft Defender protections during hashing attempts on the host system, indicating the file was identified as malicious or potentially unwanted software. Further handling was conducted in a controlled analysis environment.
 
+- **Finding 7 – Threat Intelligence Correlation:**  
+The observed domains and follow-up payload hash match publicly released indicators associated with malware distributed through cracked software campaigns. This external correlation increases confidence in the malicious assessment and supports the conclusion of staged payload delivery and command-and-control behavior.
+
 ---
 
 ## Indicators of Compromise (IOCs)
@@ -77,6 +80,9 @@ The exported payload triggered Microsoft Defender protections during hashing att
 
 **File Path:**
 - /shrk.bin
+
+**Follow-up Payload Hash (SHA256):**
+- 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6
 
 ---
 
