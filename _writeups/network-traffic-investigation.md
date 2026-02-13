@@ -5,7 +5,7 @@ title: "Network Traffic Investigation"
 ## Overview
 **Goal:** Identify the infected host, confirm malicious payload delivery, analyze encrypted follow-on communications, and extract actionable indicators of compromise from a public malware PCAP.
 
-**Environment:** Windows 10 virtual machine running in VirtualBox with Wireshark used for packet analysis.
+**Environment:** Windows 10 virtual machine (VirtualBox) for packet analysis, Kali Linux virtual machine for secure file hashing, Wireshark for traffic inspection, and sha256sum for payload verification.
 
 **Data/Evidence:** 2025-06-20-traffic-from-running-the-malware.pcap (Malware-Traffic-Analysis dataset)
 
@@ -56,10 +56,10 @@ Filtering all traffic involving 104.21.21.29 confirmed that 172.16.1.128 was the
 No DNS queries were observed for the malicious domains within the packet capture. Domain resolution likely occurred prior to the start of the capture or through infrastructure not included in the dataset.
 
 - **Finding 6 – Endpoint Detection Triggered:**  
-The exported payload triggered Microsoft Defender protections during hashing attempts on the host system, indicating the file was identified as malicious or potentially unwanted software. Further handling was conducted in a controlled analysis environment.
+The exported payload triggered Microsoft Defender protections when accessed on the Windows analysis VM. To maintain system integrity, hashing and verification were performed in an isolated Kali Linux virtual machine.
 
 - **Finding 7 – Threat Intelligence Correlation:**  
-The observed domains and follow-up payload hash match publicly released indicators associated with malware distributed through cracked software campaigns. This external correlation increases confidence in the malicious assessment and supports the conclusion of staged payload delivery and command-and-control behavior.
+The SHA256 hash of the retrieved payload was submitted to VirusTotal, where 55 out of 71 security vendors flagged the file as malicious. Several detections referenced trojan/downloader variants (including Zusy/Tepfer family labels). This external validation supports the staged payload delivery and encrypted command-and-control behavior observed in the PCAP.
 
 ---
 
@@ -78,8 +78,10 @@ The observed domains and follow-up payload hash match publicly released indicato
 **File Path:**
 - /shrk.bin
 
-**Follow-up Payload Hash (SHA256):**
-The retrieved file (`shrk.bin`) has a SHA256 hash of 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6 and a file size of 8,359,712 bytes.
+**Follow-up Payload (shrk.bin):**
+- SHA256: 21d0bd2f5870c46cafa2a3ac4771ce0d907e1e03b926ae8820298f639e3b4fb6
+- File Size: 8,359,712 bytes
+- VirusTotal Detection: 55/71 engines
 
 ---
 
