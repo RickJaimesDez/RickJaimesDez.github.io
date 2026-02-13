@@ -1,6 +1,5 @@
 ---
 title: "Incident Response Mini Report – NetSupport RAT (PCAP Analysis)"
-layout: default
 ---
 
 # Incident Response Mini Report – NetSupport RAT (PCAP Analysis)
