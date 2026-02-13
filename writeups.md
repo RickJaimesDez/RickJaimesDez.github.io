@@ -7,7 +7,7 @@ weight: 15
 
 # Writeups
 
-These writeups document structured SOC-style investigations using real-world datasets.  
+This section showcases structured SOC-style investigations conducted using public threat datasets.  
 Each entry emphasizes packet-level validation, indicator extraction, and incident-focused reporting rather than step-by-step lab walkthroughs.
 
 ---
@@ -56,7 +56,7 @@ Each entry emphasizes packet-level validation, indicator extraction, and inciden
 
 ## Investigation Structure
 
-Each writeup follows a consistent investigation workflow:
+Each investigation follows a structured workflow aligned with SOC operations:
 
 - Defined investigation scope
 - Environment and dataset identification
