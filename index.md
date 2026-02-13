@@ -5,7 +5,7 @@ title: Cybersecurity Portfolio
 
 # Cybersecurity Portfolio
 
-**Entry-Level SOC Analyst | Security+ | M.S. Cybersecurity (In Progress)**  
+**SOC Analyst | Security+ & Network+ | M.S. Cybersecurity | CySA+ (Scheduled May 2026)**
 Focused on alert triage, network investigation, and structured incident documentation.
 
 <div class="mb-4">
@@ -25,7 +25,7 @@ Focused on alert triage, network investigation, and structured incident document
       <div class="card-body">
         <h5 class="card-title">SOC-Focused Skillset</h5>
         <p class="card-text mb-0">
-          Alert triage, packet inspection, IDS analysis, and evidence-based incident reporting aligned with Tier 1 SOC workflows.
+          Packet inspection, alert triage, IDS validation, and structured incident documentation aligned with Tier 1 SOC workflows.
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@ Focused on alert triage, network investigation, and structured incident document
       <div class="card-body">
         <h5 class="card-title">Hands-On Investigations</h5>
         <p class="card-text mb-0">
-          PCAP investigations, intrusion detection projects, and structured incident response documentation using real datasets.
+          Real-world PCAP investigations including malware analysis, TLS inspection, command-and-control validation, and IOC extraction.
         </p>
       </div>
     </div>
@@ -45,9 +45,9 @@ Focused on alert triage, network investigation, and structured incident document
   <div class="col-md-4 mb-3">
     <div class="card border-0 shadow-sm h-100">
       <div class="card-body">
-        <h5 class="card-title">Security+</h5>
+        <h5 class="card-title">Industry Certifications</h5>
         <p class="card-text mb-0">
-          CompTIA Security+ certified with practical experience in network security, threat analysis, and incident response.
+          CompTIA Security+ and Network+ certified. CySA+ scheduled (May 2026).
         </p>
       </div>
     </div>
@@ -165,7 +165,7 @@ This portfolio demonstrates how I investigate alerts, validate evidence, and com
 
 - CompTIA Security+ (Active)
 - CompTIA Network+ (Active)
-- CompTIA CySA+ (In Progress / Scheduled)
+- CompTIA CySA+ (Scheduled – May 2026)
 
 ---
 
