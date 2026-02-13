@@ -5,12 +5,16 @@ title: Cybersecurity Portfolio
 
 # Cybersecurity Portfolio
 
-**SOC-focused work:** alert triage, log analysis, and network investigation with clear, evidence-based writeups.
+**Entry-Level SOC Analyst | Security+ | M.S. Cybersecurity (In Progress)**  
+Focused on alert triage, network investigation, and structured incident documentation.
 
 <div class="mb-4">
   <a class="btn btn-outline-primary btn-sm mr-2" href="/projects/">View Projects</a>
+  <a class="btn btn-outline-primary btn-sm mr-2" href="/writeups/network-traffic-investigation/">Traffic Analysis Writeup</a>
   <a class="btn btn-outline-primary btn-sm" href="/contact/">Contact</a>
 </div>
+
+---
 
 ## Highlights
 
@@ -19,9 +23,9 @@ title: Cybersecurity Portfolio
   <div class="col-md-4 mb-3">
     <div class="card border-0 shadow-sm h-100">
       <div class="card-body">
-        <h5 class="card-title">SOC-Focused</h5>
+        <h5 class="card-title">SOC-Focused Skillset</h5>
         <p class="card-text mb-0">
-          Alert triage, log analysis, network traffic inspection, and clear reporting.
+          Alert triage, packet inspection, IDS analysis, and evidence-based incident reporting aligned with Tier 1 SOC workflows.
         </p>
       </div>
     </div>
@@ -30,9 +34,9 @@ title: Cybersecurity Portfolio
   <div class="col-md-4 mb-3">
     <div class="card border-0 shadow-sm h-100">
       <div class="card-body">
-        <h5 class="card-title">Hands-On Projects</h5>
+        <h5 class="card-title">Hands-On Investigations</h5>
         <p class="card-text mb-0">
-          Real-time NIDS dashboard, traffic investigations, and incident-style writeups.
+          PCAP investigations, intrusion detection projects, and structured incident response documentation using real datasets.
         </p>
       </div>
     </div>
@@ -43,7 +47,7 @@ title: Cybersecurity Portfolio
       <div class="card-body">
         <h5 class="card-title">Security+</h5>
         <p class="card-text mb-0">
-          CompTIA Security+ certified with a blue-team learning path.
+          CompTIA Security+ certified with practical experience in network security, threat analysis, and incident response.
         </p>
       </div>
     </div>
@@ -54,9 +58,14 @@ title: Cybersecurity Portfolio
 ---
 
 ## About Me
-I am working toward an entry-level SOC Analyst role. My focus is on practical skills such as alert triage, log analysis, network traffic inspection, and clear documentation.
 
-This portfolio is built to show how I approach problems, not just which tools I have used.
+I am a cybersecurity graduate student focused on network security monitoring, incident investigation, and structured technical reporting.
+
+I am currently completing my M.S. in Cybersecurity while building hands-on projects that simulate real-world SOC workflows, including packet analysis, IDS validation, and command-and-control (C2) investigation.
+
+My background includes over 10 years of leadership in high-stakes military environments, where operational security, accountability, and disciplined decision-making were critical.
+
+This portfolio demonstrates how I investigate alerts, validate evidence, and communicate findings clearly.
 
 ---
 
@@ -68,11 +77,13 @@ This portfolio is built to show how I approach problems, not just which tools I 
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
         <h5 class="card-title">Real-Time NIDS Dashboard</h5>
-        <p class="card-text"><b>Focus:</b> Detection and alerting</p>
-        <p class="card-text">Flask dashboard that displays real-time intrusion alerts with timestamps and severity.</p>
-        <p class="card-text"><b>What I learned:</b> Turning raw alerts into clear, actionable notes.</p>
+        <p class="card-text"><b>Focus:</b> Detection engineering & alert triage</p>
+        <p class="card-text">
+          Built a real-time intrusion detection system using Python and Scapy with a Flask dashboard for alert visualization and severity tracking.
+        </p>
+        <p class="card-text"><b>Skills Applied:</b> Packet inspection, alert validation, SOC-style workflow design</p>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard">Repo</a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard/blob/main/README.md">Writeup</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard/blob/main/README.md">Documentation</a>
       </div>
     </div>
   </div>
@@ -80,11 +91,13 @@ This portfolio is built to show how I approach problems, not just which tools I 
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Wireshark Traffic Analysis</h5>
-        <p class="card-text"><b>Focus:</b> Network investigation</p>
-        <p class="card-text">Packet capture analysis with findings and prevention recommendations.</p>
-        <p class="card-text"><b>What I learned:</b> Explaining traffic patterns to support triage decisions.</p>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/wireshark-triage">Repo</a>
+        <h5 class="card-title">SOC Network Traffic Investigation</h5>
+        <p class="card-text"><b>Focus:</b> PCAP malware investigation</p>
+        <p class="card-text">
+          Structured SOC-style investigation identifying infected host, confirming payload delivery, and extracting actionable IOCs.
+        </p>
+        <p class="card-text"><b>Skills Applied:</b> Wireshark analysis, TLS inspection, IOC extraction</p>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/soc-network-traffic-investigation">Repo</a>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">Writeup</a>
       </div>
     </div>
@@ -94,11 +107,13 @@ This portfolio is built to show how I approach problems, not just which tools I 
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
         <h5 class="card-title">Incident Response Mini Report</h5>
-        <p class="card-text"><b>Focus:</b> Documentation and analysis</p>
-        <p class="card-text">Incident-report style writeup including scope, evidence, findings, and mitigations.</p>
-        <p class="card-text"><b>What I learned:</b> Writing evidence-based findings and realistic mitigations.</p>
+        <p class="card-text"><b>Focus:</b> C2 validation & incident documentation</p>
+        <p class="card-text">
+          PCAP-based investigation identifying NetSupport RAT command-and-control traffic through DNS, TLS SNI, HTTP POST beaconing, and TCP stream analysis.
+        </p>
+        <p class="card-text"><b>Skills Applied:</b> IDS correlation, C2 validation, incident reporting</p>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report">Repo</a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report/blob/main/README.md">Writeup</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://rickjaimesdez.github.io/writeups/incident-response-mini-report/">Writeup</a>
       </div>
     </div>
   </div>
@@ -114,12 +129,13 @@ This portfolio is built to show how I approach problems, not just which tools I 
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Blue Team</h5>
+        <h5 class="card-title">Blue Team & SOC</h5>
         <ul class="mb-0">
-          <li>Alert triage</li>
-          <li>Log analysis</li>
-          <li>Incident documentation</li>
-          <li>Basic threat hunting (beginner)</li>
+          <li>Alert triage and escalation</li>
+          <li>Packet capture (PCAP) analysis</li>
+          <li>Incident documentation and reporting</li>
+          <li>IOC extraction and validation</li>
+          <li>Basic threat hunting techniques</li>
         </ul>
       </div>
     </div>
@@ -128,13 +144,13 @@ This portfolio is built to show how I approach problems, not just which tools I 
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Network + Tools</h5>
+        <h5 class="card-title">Network & Technical Tools</h5>
         <ul class="mb-0">
-          <li>TCP/IP fundamentals</li>
-          <li>Wireshark analysis</li>
-          <li>IDS concepts</li>
-          <li>Linux fundamentals</li>
-          <li>Python (automation basics)</li>
+          <li>TCP/IP, DNS, HTTP/HTTPS fundamentals</li>
+          <li>Wireshark traffic analysis</li>
+          <li>Splunk (SIEM basics)</li>
+          <li>Linux (Ubuntu, Kali)</li>
+          <li>Python (security automation)</li>
           <li>Git/GitHub workflow</li>
         </ul>
       </div>
@@ -146,17 +162,20 @@ This portfolio is built to show how I approach problems, not just which tools I 
 ---
 
 ## Certifications
+
 - CompTIA Security+ (Active)
+- CompTIA Network+ (Active)
+- CompTIA CySA+ (In Progress / Scheduled)
 
 ---
 
-## Get in touch
+## Get in Touch
 
 <div class="card border-0 shadow-sm mb-4">
   <div class="card-body">
     <h5 class="card-title mb-2">Contact</h5>
     <p class="card-text mb-3">
-      If you want a quick walkthrough of any project or writeup, the easiest way to reach me is on the Contact page.
+      Feel free to reach out.
     </p>
     <a class="btn btn-outline-primary btn-sm" href="/contact/">Go to Contact</a>
   </div>
