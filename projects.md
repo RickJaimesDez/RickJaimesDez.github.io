@@ -5,6 +5,12 @@ permalink: /projects/
 weight: 10
 ---
 
+# Projects
+
+These projects demonstrate hands-on SOC-style investigations, intrusion detection development, and structured incident response documentation using real-world datasets.
+
+---
+
 ## Featured Projects
 
 <div class="row">
@@ -25,10 +31,14 @@ weight: 10
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Wireshark Traffic Analysis</h5>
-        <p class="card-text"><b>Focus:</b> Network investigation</p>
-        <p class="card-text">Packet capture analysis with findings and prevention recommendations.</p>
-        <p class="card-text"><b>What I learned:</b> Explaining traffic patterns to support triage decisions.</p>
+        <h5 class="card-title">SOC Network Traffic Investigation</h5>
+        <p class="card-text"><b>Focus:</b> Malware PCAP Investigation</p>
+        <p class="card-text">
+          Conducted structured analysis of malware-related packet capture data to identify infected host, validate payload delivery, and extract actionable indicators of compromise (IOCs).
+        </p>
+        <p class="card-text">
+          Included TLS inspection, HTTP artifact validation, and offline payload hashing in an isolated environment.
+        </p>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/soc-network-traffic-investigation">Repo</a>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">Writeup</a>
       </div>
@@ -38,12 +48,16 @@ weight: 10
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Incident Response Mini Report</h5>
-        <p class="card-text"><b>Focus:</b> Documentation and analysis</p>
-        <p class="card-text">Incident-report style writeup including scope, evidence, findings, and mitigations.</p>
-        <p class="card-text"><b>What I learned:</b> Writing evidence-based findings and realistic mitigations.</p>
-        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
-        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
+        <h5 class="card-title">Incident Response – NetSupport RAT</h5>
+        <p class="card-text"><b>Focus:</b> Command-and-Control Validation</p>
+        <p class="card-text">
+          Investigated NetSupport RAT activity using DNS analysis, TLS SNI validation, HTTP POST beaconing detection, and TCP stream inspection.
+        </p>
+        <p class="card-text">
+          Correlated IDS alerts with packet-level evidence to confirm active C2 communication and assess impact.
+        </p>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/incident-response-mini-report">Repo</a>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/incident-response-mini-report/">Writeup</a>
       </div>
     </div>
   </div>
@@ -52,9 +66,15 @@ weight: 10
 
 ---
 
-## Project Format (What I include)
-- Problem or scenario
-- Tools used
-- Evidence (screenshots/logs/pcaps)
-- Findings
-- Prevention or detection notes
+## Project Structure
+
+Each project includes:
+
+- Problem or investigation scenario
+- Tools and environment used
+- Evidence (screenshots, logs, packet captures)
+- Technical findings
+- Indicators of compromise (IOCs)
+- Containment or detection recommendations
+
+The goal is to demonstrate structured investigative thinking aligned with SOC workflows.
