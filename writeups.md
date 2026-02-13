@@ -5,10 +5,10 @@ permalink: /writeups/
 weight: 15
 ---
 
-## Writeups
+# Writeups
 
-These writeups document focused security investigations and exercises rewritten in a SOC-style format.  
-Each entry emphasizes evidence, analysis, findings, and actionable takeaways rather than step-by-step lab instructions.
+These writeups document structured SOC-style investigations using real-world datasets.  
+Each entry emphasizes packet-level validation, indicator extraction, and incident-focused reporting rather than step-by-step lab walkthroughs.
 
 ---
 
@@ -19,12 +19,12 @@ Each entry emphasizes evidence, analysis, findings, and actionable takeaways rat
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Network Traffic Investigation</h5>
+        <h5 class="card-title">SOC Network Traffic Investigation</h5>
         <p class="card-text">
-          Analysis of suspicious HTTP activity and beaconing behavior using Wireshark and SOC-style triage techniques.
+          Structured malware PCAP investigation identifying infected host, confirming payload delivery, and validating encrypted follow-on communication.
         </p>
         <p class="card-text">
-          <b>Focus:</b> Wireshark analysis, threat hunting, evidence-based findings
+          <b>Focus:</b> Wireshark analysis, TLS inspection, IOC extraction, single-host impact validation
         </p>
         <a class="btn btn-outline-primary btn-sm" href="/writeups/network-traffic-investigation/">
           View Writeup
@@ -33,21 +33,19 @@ Each entry emphasizes evidence, analysis, findings, and actionable takeaways rat
     </div>
   </div>
 
-  <!-- Future writeups go below this line -->
-
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Future Writeup</h5>
+        <h5 class="card-title">Incident Response – NetSupport RAT</h5>
         <p class="card-text">
-          Placeholder for the next investigation or analysis.
+          PCAP-based incident investigation confirming command-and-control (C2) activity through DNS resolution, TLS SNI validation, HTTP POST beaconing, and TCP stream inspection.
         </p>
         <p class="card-text">
-          <b>Focus:</b> To be determined
+          <b>Focus:</b> IDS correlation, C2 validation, application-layer analysis, structured incident reporting
         </p>
-        <span class="btn btn-outline-secondary btn-sm disabled">
-          Coming Soon
-        </span>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/incident-response-mini-report/">
+          View Writeup
+        </a>
       </div>
     </div>
   </div>
@@ -56,15 +54,15 @@ Each entry emphasizes evidence, analysis, findings, and actionable takeaways rat
 
 ---
 
-## Writeup Format
+## Investigation Structure
 
-Each writeup follows a consistent structure so reviewers can quickly understand the work:
+Each writeup follows a consistent investigation workflow:
 
-- Scenario or objective
-- Environment and tools used
-- Evidence collected (screenshots, logs, pcaps)
-- Analysis and findings
-- Detection, mitigation, or prevention notes
-- Key takeaway relevant to SOC work
+- Defined investigation scope
+- Environment and dataset identification
+- Host pivot and traffic scoping
+- Protocol-level and application-layer validation
+- Indicator extraction
+- Impact assessment and containment recommendations
 
-Some writeups are adapted from structured lab exercises and rewritten to reflect real-world analyst documentation.
+The objective is to demonstrate practical SOC investigative thinking aligned with real-world alert escalation and incident response processes.
