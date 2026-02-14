@@ -171,6 +171,14 @@ This portfolio demonstrates how I investigate alerts, validate evidence, and com
 - CompTIA Network+ (Active)
 - CompTIA CySA+ (Scheduled – May 2026)
 
+<a class="btn btn-outline-primary btn-sm" href="https://www.credly.com/badges/1fc6d01f-f4ec-4f9b-8bbc-19d4e6d1f0b8/public_url" target="_blank">
+  View Security+ Credential
+</a>
+
+<a class="btn btn-outline-primary btn-sm mt-2" href="https://www.credly.com/badges/9c40a138-d76d-4b48-a2b8-ab38c3b4147c/public_url" target="_blank">
+  View Network+ Credential
+</a>
+
 ---
 
 ## Get in Touch
