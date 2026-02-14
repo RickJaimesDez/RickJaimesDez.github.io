@@ -82,8 +82,12 @@ This portfolio demonstrates how I investigate alerts, validate evidence, and com
           Built a real-time intrusion detection system using Python and Scapy with a Flask dashboard for alert visualization and severity tracking.
         </p>
         <p class="card-text"><b>Skills Applied:</b> Packet inspection, alert validation, SOC-style workflow design</p>
+        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
+        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
+        <!--
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard">Repo</a>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard/blob/main/README.md">Documentation</a>
+        -->
       </div>
     </div>
   </div>
