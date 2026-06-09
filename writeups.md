@@ -4,18 +4,28 @@ title: Writeups
 permalink: /writeups/
 weight: 15
 ---
-
 # Writeups
-
-This section showcases structured SOC-style investigations conducted using public threat datasets.  
+This section showcases structured SOC-style investigations conducted using public threat datasets.
 Each entry emphasizes packet-level validation, indicator extraction, and incident-focused reporting rather than step-by-step lab walkthroughs.
-
 ---
-
 ## Featured Writeups
-
 <div class="row">
-
+  <div class="col-md-6">
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Azure Help Desk Lab</h5>
+        <p class="card-text">
+          Multi-VM Help Desk environment built in Microsoft Azure with Active Directory, osTicket, and a domain-joined Windows 11 client. Configured Azure Log Analytics for SOC-style monitoring of Tier 1 workflows and authentication events.
+        </p>
+        <p class="card-text">
+          <b>Focus:</b> Active Directory administration, ticketing system deployment, KQL query development, Windows audit policy configuration
+        </p>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/azure-helpdesk-lab/">
+          View Writeup
+        </a>
+      </div>
+    </div>
+  </div>
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
@@ -32,7 +42,6 @@ Each entry emphasizes packet-level validation, indicator extraction, and inciden
       </div>
     </div>
   </div>
-
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
@@ -49,20 +58,14 @@ Each entry emphasizes packet-level validation, indicator extraction, and inciden
       </div>
     </div>
   </div>
-
 </div>
-
 ---
-
 ## Investigation Structure
-
 Each investigation follows a structured workflow aligned with SOC operations:
-
 - Defined investigation scope
 - Environment and dataset identification
 - Host pivot and traffic scoping
 - Protocol-level and application-layer validation
 - Indicator extraction
 - Impact assessment and containment recommendations
-
 The objective is to demonstrate practical SOC investigative thinking aligned with real-world alert escalation and incident response processes.
