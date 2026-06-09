@@ -4,30 +4,27 @@ title: Projects
 permalink: /projects/
 weight: 10
 ---
-
 # Projects
-
 These projects demonstrate hands-on SOC-style investigations, intrusion detection development, and structured incident response documentation using real-world datasets.
-
 ---
-
 ## Featured Projects
-
 <div class="row">
-
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
-        <h5 class="card-title">Real-Time NIDS Dashboard</h5>
-        <p class="card-text"><b>Focus:</b> Detection and alerting</p>
-        <p class="card-text">Flask dashboard that displays real-time intrusion alerts with timestamps and severity.</p>
-        <p class="card-text"><b>What I learned:</b> Turning raw alerts into clear, actionable notes.</p>
-        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
-        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
+        <h5 class="card-title">Azure Help Desk Lab</h5>
+        <p class="card-text"><b>Focus:</b> Active Directory + SOC Monitoring</p>
+        <p class="card-text">
+          Built a multi-VM Help Desk environment in Microsoft Azure with Active Directory, osTicket, and a domain-joined Windows 11 client. Configured Azure Log Analytics with Azure Monitor Agent for SOC-style monitoring of authentication and privilege events.
+        </p>
+        <p class="card-text">
+          Practiced Tier 1 workflows (password reset, account unlock, group membership, OU transfers) and wrote KQL queries for failed logons, brute force detection, and audit trail review.
+        </p>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/azure-helpdesk-lab">Repo</a>
+        <a class="btn btn-outline-primary btn-sm" href="/writeups/azure-helpdesk-lab/">Writeup</a>
       </div>
     </div>
   </div>
-
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
@@ -44,7 +41,6 @@ These projects demonstrate hands-on SOC-style investigations, intrusion detectio
       </div>
     </div>
   </div>
-
   <div class="col-md-4">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
@@ -61,20 +57,26 @@ These projects demonstrate hands-on SOC-style investigations, intrusion detectio
       </div>
     </div>
   </div>
-
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Real-Time NIDS Dashboard</h5>
+        <p class="card-text"><b>Focus:</b> Detection and alerting</p>
+        <p class="card-text">Flask dashboard that displays real-time intrusion alerts with timestamps and severity.</p>
+        <p class="card-text"><b>What I learned:</b> Turning raw alerts into clear, actionable notes.</p>
+        <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
+        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
+      </div>
+    </div>
+  </div>
 </div>
-
 ---
-
 ## Project Structure
-
 Each project includes:
-
 - Problem or investigation scenario
 - Tools and environment used
 - Evidence (screenshots, logs, packet captures)
 - Technical findings
 - Indicators of compromise (IOCs)
 - Containment or detection recommendations
-
 The goal is to demonstrate structured investigative thinking aligned with SOC workflows.
