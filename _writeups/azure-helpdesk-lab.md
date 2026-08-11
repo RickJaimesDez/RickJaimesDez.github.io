@@ -18,7 +18,7 @@ A small-business IT environment requires the foundational components of any Help
 
 ## Build Methodology
 1. Provisioned Azure foundation resources: resource group, virtual network, subnet, and network security group with inbound rules scoped to a single home IP address.
-2. Deployed DC01 (Windows Server 2022), promoted it to domain controller for the `corp.lab` forest, and built out the OU, security group, and user structure in ADUC and PowerShell (`seed-corp-lab.ps1`).
+2. Deployed DC01 (Windows Server 2022) and promoted it to domain controller for the `corp.lab` forest. Created OUs, security groups, and test users through ADUC, with the same structure scripted in PowerShell (`seed-corp-lab.ps1`) so the environment can be rebuilt from scratch.
 3. Deployed TICKET01 (Ubuntu 22.04), installed the LAMP stack, deployed osTicket 1.18.1, and configured departments, help topics, and agent accounts to mirror the AD organizational structure.
 4. Deployed CLIENT01 (Windows 11 Pro), configured DNS resolution to the domain controller, and joined the workstation to the `corp.lab` domain.
 5. Configured Azure Log Analytics workspace and Data Collection Rule to collect Windows Event Logs from DC01 via Azure Monitor Agent.
