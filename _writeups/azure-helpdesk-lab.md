@@ -59,7 +59,7 @@ Out-of-the-box Windows Server 2022 ships with `LockoutThreshold=0`, meaning user
 Forcing a password change at next logon (`Set-ADUser -ChangePasswordAtLogon $true`) fails silently with a warning when the account has `PasswordNeverExpires=$true`. The never-expires flag must be cleared first. This is a real production-environment gotcha and affected the password reset task practice in this lab.
 
 - **Finding 3 – Azure Monitor Agent Table Schema:**
-Windows security events ingested through the newer Azure Monitor Agent and Data Collection Rule pipeline are written to the `Event` table rather than the `SecurityEvent` table referenced in legacy Log Analytics documentation. Both documented KQL queries were adjusted to use the Event table.
+Windows security events ingested through the newer Azure Monitor Agent and Data Collection Rule pipeline are written to the `Event` table rather than the `SecurityEvent` table referenced in legacy Log Analytics documentation. All five documented KQL queries were adjusted to use the `Event` table.
 
 - **Finding 4 – Ingestion Lag and Time Filters:**
 Initial KQL queries using `where TimeGenerated > ago(1h)` returned empty result sets despite events being present locally on DC01. Investigation showed that Azure Monitor Agent batches and ships events with a delay of approximately 5 to 15 minutes. Removing the time filter or extending the window resolved the issue.
