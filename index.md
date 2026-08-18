@@ -117,7 +117,8 @@ This portfolio demonstrates how I build, operate, and investigate IT and securit
       </div>
     </div>
   </div>
-
+  
+<!--
   <div class="col-md-6">
     <div class="card border-0 shadow-sm mb-4">
       <div class="card-body">
@@ -128,14 +129,13 @@ This portfolio demonstrates how I build, operate, and investigate IT and securit
         </p>
         <p class="card-text"><b>Skills Applied:</b> Packet inspection, alert validation, SOC-style workflow design</p>
         <span class="btn btn-outline-secondary btn-sm disabled">Coming Soon</span>
-        <span class="btn btn-outline-secondary btn-sm disabled">Writeup – Coming Soon</span>
-        <!--
+        <span class="btn btn-outline-secondary btn-sm disabled">Writeup - Coming Soon</span>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard">Repo</a>
         <a class="btn btn-outline-primary btn-sm" href="https://github.com/RickJaimesDez/nids-dashboard/blob/main/README.md">Documentation</a>
-        -->
       </div>
     </div>
   </div>
+-->
 
 </div>
 
