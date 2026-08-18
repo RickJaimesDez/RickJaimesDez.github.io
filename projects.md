@@ -1,12 +1,17 @@
 ---
+
 layout: page
 title: Projects
 permalink: /projects/
 weight: 10
+
 ---
+
 # Projects
 These projects demonstrate hands-on SOC-style investigations, intrusion detection development, and structured incident response documentation using real-world datasets.
+
 ---
+
 ## Featured Projects
 <div class="row">
   <div class="col-md-4">
@@ -72,7 +77,9 @@ These projects demonstrate hands-on SOC-style investigations, intrusion detectio
   </div>
   -->
 </div>
+
 ---
+
 ## Project Structure
 Each project includes:
 - Problem or investigation scenario
