@@ -63,7 +63,7 @@ I am a cybersecurity graduate student focused on end-user support, network secur
 
 I am currently completing my M.S. in Cybersecurity while building hands-on projects that simulate real-world IT support and SOC workflows. My work includes deploying and operating Active Directory environments, practicing Tier 1 Help Desk tasks, configuring security event monitoring with Azure Log Analytics, and conducting packet-level investigations against real malware traffic.
 
-My background includes over 10 years of leadership in high-stakes military environments, where operational security, accountability, and disciplined decision-making were critical.
+My background includes nearly ten years of leadership in high-stakes military environments, where operational security, accountability, and disciplined decision-making were critical.
 
 This portfolio demonstrates how I build, operate, and investigate IT and security environments and communicate findings clearly.
 
